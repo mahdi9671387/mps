@@ -1,4 +1,4 @@
-/* تنظیمات کلی */
+
 body {
   font-family: 'Vazirmatn', sans-serif;
   background-color: #111;
@@ -8,7 +8,6 @@ body {
   line-height: 1.8;
 }
 
-/* هدر */
 header {
   background-color: #1a1a1a;
   color: #ff6600;
@@ -18,7 +17,6 @@ header {
   border-bottom: 3px solid #ff6600;
 }
 
-/* نوار ناوبری */
 nav {
   background-color: #222;
   display: flex;
@@ -41,7 +39,6 @@ nav a:hover, nav a.active {
   color: #fff;
 }
 
-/* بخش معرفی */
 .about-intro {
   text-align: center;
   margin: 25px auto;
@@ -53,7 +50,6 @@ nav a:hover, nav a.active {
   color: #ff6600;
 }
 
-/* بنر */
 .banner {
   width: 100%;
   border-radius: 12px;
@@ -61,7 +57,6 @@ nav a:hover, nav a.active {
   margin: auto;
 }
 
-/* بخش محصولات */
 .new-products {
   text-align: center;
   padding: 30px 10px;
@@ -110,7 +105,6 @@ nav a:hover, nav a.active {
   font-weight: bold;
 }
 
-/* فوتر */
 footer {
   background-color: #1a1a1a;
   color: #ccc;
@@ -119,19 +113,14 @@ footer {
   border-top: 2px solid #ff6600;
   margin-top: 40px;
 }
-
-/* واکنش‌گرا برای موبایل */
-@media (max-width: 600px) {
-  nav {
-    flex-direction: column;
-  }
-
-  .product-cards {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  header h1 {
-    font-size: 20px;
-  }
+.btn-buy {
+  margin-top: 10px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }

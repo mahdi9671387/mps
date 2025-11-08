@@ -1,4 +1,4 @@
-/* تنظیمات کلی */
+
 body {
   font-family: 'Vazirmatn', sans-serif;
   background-color: #111;
@@ -8,7 +8,6 @@ body {
   line-height: 1.8;
 }
 
-/* هدر */
 header {
   background-color: #1a1a1a;
   color: #ff6600;
@@ -18,7 +17,6 @@ header {
   border-bottom: 3px solid #ff6600;
 }
 
-/* منو ناوبری */
 nav {
   background-color: #222;
   display: flex;
@@ -42,7 +40,6 @@ nav a.active {
   color: #fff;
 }
 
-/* کانتینر فرم ورود */
 .login-container {
   background-color: #1a1a1a;
   max-width: 400px;
@@ -65,7 +62,6 @@ nav a.active {
   font-size: 15px;
 }
 
-/* فرم ورود */
 .login-form {
   display: flex;
   flex-direction: column;
@@ -93,7 +89,6 @@ nav a.active {
   border-color: #ff6600;
 }
 
-/* دکمه‌ها */
 .btn-login,
 .btn-register {
   background-color: #ff6600;
@@ -111,7 +106,6 @@ nav a.active {
   background-color: #ff8533;
 }
 
-/* جداکننده */
 .or {
   text-align: center;
   color: #ccc;
@@ -137,7 +131,6 @@ nav a.active {
   left: 0;
 }
 
-/* بخش تماس */
 .contact {
   margin-top: 15px;
   font-size: 15px;
@@ -149,7 +142,6 @@ nav a.active {
   font-weight: bold;
 }
 
-/* فوتر */
 footer {
   background-color: #1a1a1a;
   color: #ccc;
@@ -157,21 +149,4 @@ footer {
   padding: 20px;
   border-top: 2px solid #ff6600;
   margin-top: 60px;
-}
-
-/* واکنش‌گرا برای موبایل */
-@media (max-width: 600px) {
-  nav {
-    flex-direction: column;
-  }
-
-  .login-container {
-    width: 90%;
-    margin: 40px auto;
-    padding: 20px;
-  }
-
-  header h1 {
-    font-size: 20px;
-  }
 }

@@ -6,7 +6,6 @@ body {
   padding: 0;
 }
 
-/* هدر */
 header {
   background-color: #1a1a1a;
   color: #ff6600;
@@ -15,7 +14,6 @@ header {
   border-bottom: 3px solid #ff6600;
 }
 
-/* نوار ناوبری */
 nav {
   background-color: #222;
   display: flex;
@@ -39,7 +37,6 @@ nav a.active {
   color: #fff;
 }
 
-/* مقدمه */
 .intro {
   text-align: center;
   padding: 40px 10px 20px;
@@ -56,7 +53,6 @@ nav a.active {
   margin: 10px auto;
 }
 
-/* محصولات */
 .product-list {
   display: flex;
   flex-wrap: wrap;
@@ -104,7 +100,6 @@ nav a.active {
   margin-top: 10px;
 }
 
-/* دکمه خرید */
 .btn-buy {
   margin-top: 10px;
   background-color: #ff6600;
@@ -121,7 +116,6 @@ nav a.active {
   background-color: #ff8533;
 }
 
-/* فوتر */
 footer {
   background-color: #1a1a1a;
   color: #ccc;
@@ -130,18 +124,3 @@ footer {
   border-top: 2px solid #ff6600;
 }
 
-/* واکنش‌گرا */
-@media (max-width: 600px) {
-  nav {
-    flex-direction: column;
-  }
-
-  .product-list {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  header h1 {
-    font-size: 20px;
-  }
-}

@@ -1,4 +1,4 @@
-/* تنظیمات کلی */
+
 body {
   font-family: 'Vazirmatn', sans-serif;
   background-color: #111;
@@ -8,7 +8,6 @@ body {
   line-height: 1.8;
 }
 
-/* هدر */
 header {
   background-color: #1a1a1a;
   color: #ff6600;
@@ -18,7 +17,6 @@ header {
   border-bottom: 3px solid #ff6600;
 }
 
-/* منوی ناوبری */
 nav {
   background-color: #222;
   display: flex;
@@ -42,7 +40,6 @@ nav a.active {
   color: #fff;
 }
 
-/* بخش معرفی */
 .about-intro {
   text-align: center;
   max-width: 800px;
@@ -65,7 +62,6 @@ nav a.active {
   line-height: 1.9;
 }
 
-/* بخش تیم مدیریتی */
 .team {
   text-align: center;
   padding: 40px 10px;
@@ -115,7 +111,6 @@ nav a.active {
   font-size: 15px;
 }
 
-/* بخش تصویر */
 .about-image {
   text-align: center;
   margin: 50px 0;
@@ -127,7 +122,6 @@ nav a.active {
   box-shadow: 0 4px 20px rgba(255, 102, 0, 0.2);
 }
 
-/* اطلاعات تماس */
 .contact-info {
   text-align: center;
   background-color: #1a1a1a;
@@ -149,7 +143,6 @@ nav a.active {
   font-weight: bold;
 }
 
-/* فوتر */
 footer {
   background-color: #1a1a1a;
   color: #ccc;
@@ -159,22 +152,3 @@ footer {
   margin-top: 40px;
 }
 
-/* واکنش‌گرا برای موبایل */
-@media (max-width: 600px) {
-  nav {
-    flex-direction: column;
-  }
-
-  .team-cards {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  header h1 {
-    font-size: 20px;
-  }
-
-  .about-intro {
-    width: 90%;
-  }
-}
